@@ -251,12 +251,14 @@ p {
   background-image: url("../background4.jpeg");
   /* background-color: black; */
   text-align: center;
+  background-size: cover;
 }
 
 .tech-back {
   background-image: url("../background6.jpg");
   background-color: black;
   text-align: center;
+  background-size: cover;
 }
 
 .contact-back {
@@ -269,6 +271,7 @@ p {
   background-image: url("../background3.jpeg");
   background-color: black;
   text-align: center;
+  background-size: cover;
 }
 
 .footer-back {
@@ -319,7 +322,7 @@ p {
   font-size: 2em;
   font-weight: 800;
   padding: 50px;
-  width: 60%;
+  /* width: 60%; */
   float: left;
   font-family: montserrat, sans-serif;
   background-size: contain;

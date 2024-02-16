@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.35b02a0c.css",
+    "main.js": "/react-portfolio/static/js/main.da8ae8c1.js",
+    "static/js/453.c4bd9193.chunk.js": "/react-portfolio/static/js/453.c4bd9193.chunk.js",
+    "static/media/blue-alt-back.jpg": "/react-portfolio/static/media/blue-alt-back.2b7df5fd0bd49d922cea.jpg",
+    "static/media/background2.jpeg": "/react-portfolio/static/media/background2.9675cd13053ed7eae315.jpeg",
+    "static/media/background3.jpeg": "/react-portfolio/static/media/background3.52ee1946fccbae5a8191.jpeg",
+    "static/media/background4.jpeg": "/react-portfolio/static/media/background4.efa1abe16301caf9ec4e.jpeg",
+    "static/media/hand.png": "/react-portfolio/static/media/hand.28907cf503fc3386d54c.png",
+    "static/media/background5.jpeg": "/react-portfolio/static/media/background5.6cc293e28e0b43174959.jpeg",
+    "static/media/photo.jpg": "/react-portfolio/static/media/photo.017111dfecd8dc4a5077.jpg",
+    "static/media/background6.jpg": "/react-portfolio/static/media/background6.15fd7a56f247d24cbcc5.jpg",
+    "static/media/hand.jpg": "/react-portfolio/static/media/hand.57141299bba3ada493e5.jpg",
+    "static/media/Toto-Portfolio-img.jpeg": "/react-portfolio/static/media/Toto-Portfolio-img.75726bf11bb0261eb609.jpeg",
+    "static/media/MetroNZ-Portfolio-img.jpeg": "/react-portfolio/static/media/MetroNZ-Portfolio-img.bb0456ba3dfc315d9a2a.jpeg",
+    "static/media/Coppersani-Portfolio-img.jpeg": "/react-portfolio/static/media/Coppersani-Portfolio-img.52e4e20efd242bd56991.jpeg",
+    "static/media/profile-img.jpg": "/react-portfolio/static/media/profile-img.31a59ba14fd2cce714ad.jpg",
+    "static/media/Toto-Portfolio-img.jpg": "/react-portfolio/static/media/Toto-Portfolio-img.c54859065b9fce7fe3cb.jpg",
+    "static/media/Mission-Ready-Badge.png": "/react-portfolio/static/media/Mission-Ready-Badge.79b94183628c8344dc0f.png",
+    "static/media/MetroNZ-Portfolio-img.jpg": "/react-portfolio/static/media/MetroNZ-Portfolio-img.b67e53613b8e0e02e401.jpg",
+    "static/media/Coppersani-Portfolio-img.jpg": "/react-portfolio/static/media/Coppersani-Portfolio-img.c61d8fc4bd724e87ce94.jpg",
+    "static/media/clouds.png": "/react-portfolio/static/media/clouds.c44b2913fdf847e401a9.png",
+    "static/media/Signalroom-Portfolio-img.jpg": "/react-portfolio/static/media/Signalroom-Portfolio-img.7a30d5fda69adad5be5b.jpg",
+    "static/media/pic7.jpg": "/react-portfolio/static/media/pic7.9c900815e0b4707980c9.jpg",
+    "static/media/react.png": "/react-portfolio/static/media/react.e4f1c033125f50cc4cb8.png",
+    "static/media/pic6.jpg": "/react-portfolio/static/media/pic6.9210e12037701309e479.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.35b02a0c.css.map": "/react-portfolio/static/css/main.35b02a0c.css.map",
+    "main.da8ae8c1.js.map": "/react-portfolio/static/js/main.da8ae8c1.js.map",
+    "453.c4bd9193.chunk.js.map": "/react-portfolio/static/js/453.c4bd9193.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35b02a0c.css",
+    "static/js/main.da8ae8c1.js"
+  ]
+}

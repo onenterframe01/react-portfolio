@@ -595,8 +595,9 @@ p {
     margin-left: 58%;
   }
   .main-nav {
-    margin-top: -87%;
     margin-bottom: 50%;
+    margin-top: -78%;
+    margin-left: 3%;
   }
 }
 

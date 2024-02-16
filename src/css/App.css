@@ -1,0 +1,715 @@
+
+/*Navigation Start*/
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*Navigation End*/
+
+.float-container {
+  /* border: 3px solid #fff; */
+  padding: 20px;
+  margin-left: 30px;
+  width: 700px;
+}
+
+.float-container-portfolio {
+  /* border: 3px solid #fff; */
+  padding: 20px;
+  margin-left: 30px;
+  width: 700px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  /* border: 2px solid red; */
+} 
+
+.float-child-portfolio {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  /* border: 2px solid red; */
+} 
+
+.main-nav ul li a{
+  text-decoration: none;
+  font-size: 1.8em;
+  line-height: 1.5;
+  color: white;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 60px;
+  font-weight: 700;
+  text-align: right;
+  background-color: darkred;
+  border-radius: 10px;
+  margin-right: -10%;
+  font-family: montserrat,sans-serif;
+}
+
+.main-nav ul li a:hover{
+background-color: brown;
+margin-right: -7%;
+font-weight: bold;
+color: yellow;
+
+
+}
+
+.main-nav {
+ 
+    margin-top: -97%;
+    margin-bottom: 50%;
+}
+
+
+.main-nav ul{
+  text-align: right;
+  float: left;
+  margin-top: 5%;
+  position: fixed;
+  z-index: 9999;
+  margin-left: 54%;
+  
+
+}
+
+.main-nav ul li{
+  margin-bottom: 20%;
+  list-style-type: none;
+}
+
+
+
+.container-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+
+p{
+  margin:0px !important;
+}
+
+.container-fluid{
+  padding: 0px !important;
+}
+
+.logo-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: montserrat,sans-serif;
+}
+
+.intro-text {
+  color: white;
+  font-size: 4em;
+  padding-left: 10%;
+  background-image: url("../background2.jpeg");
+  /* background-color: black; */
+  padding-top: 5%;
+  font-family: montserrat,sans-serif;
+  padding-bottom: 52%;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+
+.about-daniel{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  float:left;
+}
+
+.name{
+  font-size: 1.5em;
+  color: yellow;
+  font-weight: bold;
+}
+
+.mynameis{
+  background-color: darkred;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hello{
+  
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.16em;
+    border-radius: 10px;
+}
+ 
+
+
+.amplisand {
+  font-size: 1.7em;
+  color: darkred;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.iamawebdev{
+  background-color: darkgreen;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.navbar {
+  position: relative;
+  height: 100px;
+  margin-bottom: 0px !important;
+  border: 1px solid transparent;
+  /* background-image: url("../blue-alt-back.jpg"); */
+  background-color: black;
+  /* border-bottom: 1px solid white; */
+  margin-left: 0% ;
+}
+
+.baby-photo {
+  z-index: 99999;
+  position: fixed;
+  float: right;
+  margin-right: 4%;
+  margin-top: 4%;
+  margin-left: 60%;;
+}
+
+.business-card-back{
+  background-color: #ffb722;
+  text-align: center;
+}
+
+.header-back{
+  background-image: url("../blue-alt-back.jpg");
+  text-align: center;
+}
+
+
+.about-back{
+  background-image: url("../blue-alt-back.jpg");
+  text-align: center;
+}
+
+.profile-back{
+  background-image: url("../background4.jpeg");
+    /* background-color: black; */
+  text-align: center;
+}
+
+.tech-back{
+  background-image: url("../background6.jpg");
+  background-color: black;
+text-align: center;
+}
+
+.contact-back{
+  background-image: url("../background5.jpeg");
+  background-color: black;
+text-align: center;
+}
+
+.portfolio-back{
+  background-image: url("../background3.jpeg");
+  background-color: black;
+text-align: center;
+}
+
+.footer-back{
+  background-image: url("../blue-alt-back.jpg");
+  text-align: center;
+}
+
+.header-profile {
+  font-size: 3em;
+  /* text-align: right; */
+  background-color: darkred;
+  /* border-radius: 30px; */
+  padding: 5px;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+}
+
+.tech-profile {
+  font-size: 3em;
+  /* text-align: right; */
+  background-color: darkred;
+  /* border-radius: 30px; */
+  padding: 5px;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.contact-profile {
+  font-size: 3em;
+  /* text-align: right; */
+  background-color: darkred;
+  /* border-radius: 30px; */
+  padding: 5px;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-weight: bold;
+
+}
+
+
+.personal-information {
+  color: white;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 800;
+  padding: 50px;
+  width: 60%;
+  float: left;
+  font-family: montserrat,sans-serif;
+}
+
+.contact-text{
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 800;
+    padding: 50px;
+    width: 60%;
+    float: left;
+    font-family: montserrat,sans-serif;
+}
+
+
+   
+
+.profile-img {
+  margin: 4%;
+ 
+}
+
+.profile-pic {
+  float: left; 
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+.intro-tech {
+  color: black;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 800;
+  padding: 50px;
+ 
+  float: left;
+  font-family: montserrat,sans-serif;
+}
+
+.contact-form {
+  color: black;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 800;
+  padding: 20%;
+ 
+  float: left;
+  font-family: montserrat,sans-serif;
+}
+
+.react-logo {
+  margin: 3% auto;
+}
+
+.github-logo {
+  margin: 3% auto;
+}
+
+.node-logo {
+  margin: 3% auto;
+}
+
+.javascript-logo {
+  margin: 3% auto;
+}
+
+.css-logo {
+  margin: 3% auto;
+}
+
+.html-logo {
+  margin: 3% auto;
+}
+
+.about-me-text{
+  color: white;
+  text-align: center;
+}
+
+.button-email{
+  margin-right: 10px;
+
+}
+
+.footer-bottom{
+  background-color: black;
+}
+
+.footer-center{
+  margin: auto;
+  background-image: url("../clouds.png");
+  height: 426px;
+ 
+
+}
+
+.profile{
+  float: left;
+  margin-top: 10%;
+}
+
+.pic1 {
+  rotate: 10deg;
+  float: right;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+.pic2{
+  
+    margin-top: 48.2%;
+    float: left;
+    margin-bottom: 10%;
+}
+
+
+.pic3{
+  rotate: 14deg;
+  margin-top: 16%;
+  float: left;
+}
+
+.pic4 {
+  rotate: -7deg;
+  margin-top: 44%;
+  float: right;
+  margin-right: 39%;
+}
+
+.pic5 {
+  rotate: -7deg;
+  margin-top: 10%;
+  float: right;
+  margin-right: 27%;
+}
+
+
+
+.pic6 {
+  rotate: -7deg;
+  margin-top: 5%;
+  float: right;
+  margin-right: -20%;
+}
+
+.pic7 {
+  rotate: -7deg;
+  margin-top: -10%;
+  float: left;
+  margin-left: -40%;
+}
+
+.blue, .green{
+  text-align: center;
+}
+
+.blue-portfolio{
+  margin-left: 70%;
+
+}
+
+.green-portfolio{
+  
+}
+
+
+
+.title-green{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  color: white;
+  font-family: montserrat,sans-serif;
+  background-color: darkred;
+  padding: 5px;
+  border-radius: 10px;
+  width: 54%;
+  float: right;
+  margin-top: 30px !important;
+}
+
+.mission-badge{
+
+    margin-top: -3%;
+    margin-left: 37%;
+    rotate: 10deg;
+
+}
+
+.title-blue{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  color: white;
+  font-family: montserrat,sans-serif;
+  background-color: darkred;
+  padding: 5px;
+  border-radius: 10px;
+  width: 54%;
+
+  margin-top: 30px !important;
+  margin-left: 380px !important;
+}
+
+.portfolio-image{
+  border-radius: 50px;
+  outline: 2px solid red;
+}
+
+
+.buttons {
+    margin-top: 70%;
+    margin-bottom: 32.1%;
+    margin-right: 37%;
+
+}
+
+.download-my-cv {
+  font-size: 2em;
+  margin-right: 3%;
+  margin-left: -1%;
+}
+
+
+.hire-me{
+  font-size: 2em;
+}
+
+
+.social-icon{
+ margin: 5%;
+}
+
+.center {
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    margin: 3% 0% 3% 2%;
+}
+/*Media Queries Start*/
+@media (min-width: 768px){
+.navbar-nav>li {
+    float: left;
+    margin-right: 9%;
+    /* width: 100%; */
+    list-style-type: none;
+}
+
+.navbar-nav {
+    float: none;
+    margin-top: 1.8%;
+    /* outline: 1px solid black; */
+    margin-right: auto;
+    margin-left: auto;
+
+    /* text-align: center; */
+    font-size: 1.5em;
+}
+
+.navbar-nav>li>a {
+  font-size: 1em;
+  line-height: 1.5;
+  color: white;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  text-align: right;
+  background-color: darkred;
+  border-radius: 10px;
+  margin-right: -5%;
+  margin-left: 15px;
+  font-family: montserrat,sans-serif;
+}
+}
+
+
+
+@media (min-width: 1920px) and (max-width: 2561px){
+  .main-nav ul {
+    text-align: right;
+    float: left;
+    margin-top: 3%;
+    position: fixed;
+    z-index: 9999;
+    margin-left: 58%;
+}
+.main-nav {
+ 
+  margin-top: -87%;
+  margin-bottom: 50%;
+}
+}
+
+@media (min-width: 2562px){
+  .main-nav ul {
+    text-align: right;
+    float: left;
+    margin-top: 15%;
+    position: fixed;
+    z-index: 9999;
+    margin-left: 61%;
+}
+
+.main-nav {
+ 
+  margin-top: -91%;
+  margin-bottom: 50%;
+}
+}
+/*Media Queries End */
+
+/*Start Contact Form*/
+body {
+  background: #E9F1FE;
+}
+
+  #contact-form {
+      position: absolute;
+      background: #4D60A8;
+      color: #FFF;
+      font-family: sans-serif;
+      padding: 20px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2), 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12);
+  }
+  
+      input,
+      textarea {
+          width: 100%;
+          border: 0;
+          padding: 10px 20px;
+          box-sizing: border-box;
+          margin-bottom: 15px;
+          color: black;
+          font-family: montserrat,sans-serif;
+          
+      }
+
+      textarea {
+          height: 100px;
+          resize: vertical;
+      }
+
+      button {
+          width: 100%;
+          padding: 10px;
+          border: 0;
+          cursor: pointer;
+          background: #fca253;
+          font-weight: bold;
+          color: #FFF;
+          font-size: 18px;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+      }
+
+      .success {
+          display: none;
+          text-align: center;
+      }
+
+          .visible {
+              display: block;
+          }
+ 
+/*End Contact Form*/
+
+
+
+
+
+

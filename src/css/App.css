@@ -263,6 +263,7 @@ p {
 
 .contact-back {
   background-image: url("../background5.jpeg");
+  background-size: cover;
   background-color: black;
   text-align: center;
 }
